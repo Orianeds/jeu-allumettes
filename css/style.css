@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+    background: radial-gradient(#93c2c1,#292929);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+tr{
+    background-color: white;
+}
+
+img{
+    height: 140px;
+    width:100%;
+    /* background-color: white; */
+
+}
+
+button{
+    border-radius: 20px;
+    background-color: #93c2c1;
+    cursor:pointer;
+
+}
+
+#matchesToRemove{
+    margin-bottom: 20px;
+}
+
+#button{
+    margin-bottom: 20px;
+}

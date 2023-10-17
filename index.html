@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Le jeu des allumettes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="presentation">
+            <h1>Bienvenue sur le jeu des allumettes</h1>
+            <h2>Voici les règles du jeu :</h2>
+            <p>Il y a un tas de 50 allumettes.
+            Chacun à son tour, les joueurs ôtent obligatoirement entre 1 et 6 allumettes. <br>
+            Celui qui ôte la dernière allumette gagne. <br>
+            </p>
+            <p>Bonne chance !</p>
+        </div>
+
+        <div id="playersSettings">
+            Combien de personnes vont s'affronter ?
+            <input type="text" id="nbPlayers">
+            <button id="btn" type="submit">C'est parti !</button>
+        </div>
+
+        <div id="gameZone">
+            <h2 id="player"></h2>
+            <input type="number" id="matchesToRemove">
+            <button id="button" type="submit">Enlever</button>
+        </div>
+        
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
